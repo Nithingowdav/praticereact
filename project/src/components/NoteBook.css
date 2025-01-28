@@ -1,0 +1,144 @@
+.notebook-container {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the container takes up the full viewport height */
+  border: 2px solid #ddd; /* Add border around the entire container */
+  flex-direction: column; /* Make sure title stays centered and items below are stacked */
+}
+
+.heading {
+  text-align: center; /* Center the title */
+}
+
+.content-row {
+  width: 100%;
+  max-width: 1200px; /* Set a max-width to avoid stretching too much on large screens */
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.explanation-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #ddd; /* Border around the explanation content and image */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.explanation-column {
+  flex: 1; /* Allow the explanation column to take up remaining space */
+  padding-right: 20px; /* Space between text and image */
+  border-right: 2px solid #ddd; /* Border between explanation and image */
+}
+
+.image-column {
+  width: 100%; /* Full width for the image column */
+}
+
+.explanation-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.explanation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 24px;
+  color: #3f87f5;
+}
+
+.title {
+  margin: 0;
+}
+
+.toggle-button {
+  background-color: #3f87f5;
+  border-color: #3f87f5;
+  color: #fff;
+}
+
+.explanation-content {
+  display: flex;
+  margin-top: 10px;
+}
+
+.explanation-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; /* Border around the image */
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .notebook-container {
+    padding: 20px 10px;
+  }
+
+  .content-row {
+    flex-direction: column; /* Stack content and image on smaller screens */
+    align-items: center;
+  }
+
+  .explanation-wrapper {
+    flex-direction: column; /* Stack the explanation column and image column */
+  }
+
+  .explanation-column, .image-column {
+    width: 100%; /* Make columns take up full width on mobile */
+    margin-bottom: 20px;
+  }
+
+  .explanation-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    margin-top: 10px;
+  }
+
+  .explanation-content {
+    margin-top: 20px;
+  }
+
+  .explanation-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .notebook-container {
+    padding: 10px 5px;
+  }
+
+  .explanation-item {
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .toggle-button {
+    font-size: 14px;
+  }
+
+  .explanation-image {
+    margin-top: 15px;
+  }
+}

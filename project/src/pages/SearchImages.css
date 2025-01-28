@@ -1,0 +1,86 @@
+/* SearchImages.css */
+
+/* Container */
+.search-images-container {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  .search-images-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Description */
+  .search-images-description {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Input and Button */
+  .search-images-row {
+    margin-bottom: 20px;
+  }
+  
+  .search-images-input {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .search-images-button {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  /* Clear Button */
+  .clear-button {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  /* Loading Spinner */
+  .search-images-spinner {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Card */
+  .search-images-card {
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Image */
+  .search-images-card-img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Fallback for missing images */
+  .search-images-card-fallback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    font-style: italic;
+  }
+  
+  /* Message for no results */
+  .no-results-message {
+    text-align: center;
+    color: #888;
+  }
+  

@@ -1,0 +1,70 @@
+.music-carousel-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .music-carousel-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .music-carousel-subtext {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Carousel container */
+  .carousel-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Button styles */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    background-color: #3f87f5;
+    border-color: #3f87f5;
+    color: #fff;
+  }
+  
+  .carousel-button-left {
+    left: 10px;
+  }
+  
+  .carousel-button-right {
+    right: 10px;
+  }
+  
+  /* Card styling */
+  .carousel-card {
+    width: 100%; /* Each card takes up 100% of the container width */
+    padding: 10px;
+    text-align: center;
+    background: #364d79;
+    border-radius: 10px;
+    margin-right: 16px;
+    color: #fff;
+  }
+  
+  .carousel-card-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .carousel-card-subtitle {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .carousel-card-play-button {
+    margin-top: 10px;
+    background-color: #3f87f5;
+    border-color: #3f87f5;
+  }
+  

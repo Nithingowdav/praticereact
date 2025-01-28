@@ -1,0 +1,60 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #222;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  .footer-title {
+    color: #fff;
+  }
+  
+  .footer-text {
+    color: #ccc;
+  }
+  
+  .footer-link {
+    color: #ccc;
+    display: block;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons svg {
+    font-size: 20px;
+    color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .divider {
+    background-color: #444;
+    margin: 16px 0;
+  }
+  
+  .site-language-text {
+    color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .footer-copyright {
+    color: #ccc;
+    text-align: center;
+    display: block;
+  }
+  
+  /* Additional Styles for Aligning Sections Horizontally */
+  .footer-quick-links,
+  .footer-social-media {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-quick-links .ant-col,
+  .footer-social-media .ant-col {
+    flex: 1;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Movie 1",
+      "overview": "This is an overview of Movie 1.",
+      "poster_path": "/movie1.jpg",
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "title": "Movie 2",
+      "overview": "This is an overview of Movie 2.",
+      "poster_path": "/movie2.jpg",
+      "language": "fr"
+    },
+    {
+      "id": 3,
+      "title": "Movie 3",
+      "overview": "This is an overview of Movie 3.",
+      "poster_path": "/movie3.jpg",
+      "language": "es"
+    },
+    {
+      "id": 4,
+      "title": "Movie 4",
+      "overview": "This is an overview of Movie 4.",
+      "poster_path": "/movie4.jpg",
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "title": "Movie 5",
+      "overview": "This is an overview of Movie 5.",
+      "poster_path": "/movie5.jpg",
+      "language": "de"
+    }
+  ]
+  
