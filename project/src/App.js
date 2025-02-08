@@ -16,6 +16,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import SearchImages from "./pages/SearchImages";
+import ShoppingComponent from "./pages/ShoopingComponent";
 import "antd/dist/reset.css";
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/SearchImages" element={<SearchImages />} />
+          <Route path="/shopping" element={<ShoppingComponent />} />
         </Routes>
         <CustomFooter />
       </div>

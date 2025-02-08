@@ -10,7 +10,8 @@ const navItems = [
   { key: "3", label: <Link to="/about">About</Link> },
   { key: "4", label: <Link to="/contact">Contact</Link> },
   { key: "5", label: <Link to="/Portfolio">Portfolio</Link> },
-  { key: "6", label: <Link to="/SearchImages">Images</Link> }
+  { key: "6", label: <Link to="/SearchImages">Images</Link> },
+  { key: "7", label: <Link to="/shopping">Component</Link>}
 ];
 
 const AppHeader = () => {
